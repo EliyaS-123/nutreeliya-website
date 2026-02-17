@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eliyas-123.github.io/nutreeliya-website/sitemap.xml

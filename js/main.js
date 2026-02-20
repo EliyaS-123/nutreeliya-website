@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (statNumbers.length > 0) {
         const animateCounter = (el) => {
             const target = parseInt(el.getAttribute('data-target'));
+            el.textContent = '0';
             const duration = 1500;
             const startTime = performance.now();
 
